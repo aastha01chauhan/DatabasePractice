@@ -1,7 +1,7 @@
 package org.openlake.databasepractice
 
 
-class `WordListAdapter.kt` : ListAdapter<Word, `WordListAdapter.kt`.WordViewHolder>(WordsComparator()){
+class WordListAdapter : ListAdapter<Word, WordListAdapter.WordViewHolder>(WordsComparator()){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
         return WordViewHolder.create(parent)
